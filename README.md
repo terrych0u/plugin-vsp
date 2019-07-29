@@ -10,7 +10,7 @@
 
 <br/>
 
-Enables quick switching between Hasihcorp Vault profiles. If you have mulitple vault endpint need to manage. Inspire by [@mgoodness](https://github.com/mgoodness/plugin-asp).
+Enables quick switching between Hasihcorp Vault profiles. If you have multiple vault endpint need to manage. Inspire by [@mgoodness](https://github.com/mgoodness/plugin-asp).
 
 
 ## Prerequisites
@@ -30,7 +30,12 @@ vault_token = '1a2b3c4d5e6f7g8h9i'
 ## Install
 
 ```fish
-$ omf install git@github.com:terrychou/plugin-vsp.git
+$ git clone git@github.com:terrych0u/plugin-vsp.git ~/.local/share/omf/pkg/
+```
+
+## Uninstall
+```fish
+rm -rf ~/.local/share/omf/pkg/plugin-vsp
 ```
 
 
