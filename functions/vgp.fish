@@ -1,13 +1,14 @@
 function vgp -d 'Gets current Vault info'
-  if test -n "$VAULT_ADDR"
-    echo "Endpoint: $VAULT_ADDR"
+  if test -n "$VAULT_PROFILE"
+    echo "Profile: $VAULT_PROFILE"
   else
-    echo "Endpoint: Address not set"
+    echo "Profile: Profile not set, Using default"
   end
-  if test -n "$VAULT_TOKEN"
-    echo "Token: $VAULT_TOKEN"
+
+  if test -n "$VAULT_ADDR"
+    echo "Token: $VAULT_ADDR"
   else
-    echo "Token: Token not set"
+    echo "Token: Address not set, Using default"
   end
 
 end

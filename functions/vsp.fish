@@ -21,4 +21,6 @@ function vsp -d 'Switches Vault profile' -a vault_profile
   set -gx VAULT_ADDR "$vault_addr"
   set -gx VAULT_TOKEN "$vault_token"
   set -gx VAULT_PROFILE "$vault_profile"
+
+  vgp
 end
