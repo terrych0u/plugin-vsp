@@ -6,9 +6,9 @@ function vgp -d 'Gets current Vault info'
   end
 
   if test -n "$VAULT_ADDR"
-    echo "Token: $VAULT_ADDR"
+    echo "Address: $VAULT_ADDR"
   else
-    echo "Token: Address not set, Using default"
+    echo "Address: Address not set, Using default"
   end
 
 end
